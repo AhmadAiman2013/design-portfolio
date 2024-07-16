@@ -63,7 +63,9 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in frontend" :key="item" class="flex flex-col m-2">
             <Icon :name="`tabler:brand-${item}`" size="3rem" />
-            {{ item }}
+            <p class="text-wrap text-slate-500">
+              {{ item }}
+            </p>
           </li>
         </div>
       </div>
@@ -74,7 +76,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in backend" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
-            <p class="break-words">
+            <p class="break-words text-slate-500">
               {{ item }}
             </p>
           </li>
@@ -87,7 +89,9 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in styling" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
-            {{ item }}
+            <p class="text-wrap text-slate-500">
+              {{ item }}
+            </p>
           </li>
         </div>
       </div>
@@ -98,13 +102,15 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in others" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
-            <p class="text-wrap">
+            <p class="text-wrap text-slate-500">
               {{ item }}
             </p>
           </li>
           <li class="flex flex-col m-2">
             <Icon name="tabler:brand-azure" size="3rem" />
-            azure
+            <p class="text-wrap text-slate-500">
+              azure
+            </p>
           </li>
         </div>
 
@@ -113,7 +119,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
     <div class="mt-10 mb-20">
       <h1 class="text-3xl">Contacts<span class="text-7xl text-primary">.</span></h1>
       <div class="sm:flex justify-between" >
-        <p class="max-w-[500px] my-2">
+        <p class="max-w-[500px] my-2 text-slate-500">
           Currently looking for fulltime/freelance. However, if you have other request or question, don’t hesitate to
           contact me</p>
         <div>

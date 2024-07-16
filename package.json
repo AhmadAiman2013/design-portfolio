@@ -17,13 +17,19 @@
     "nuxt": "^3.12.3",
     "radix-vue": "^1.9.1",
     "shadcn-nuxt": "^0.10.4",
+    "sharp": "^0.33.4",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
-    "vue": "latest"
+    "vue": "latest",
+    "vue3-typed-ts": "^1.0.4"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.67",
     "@iconify-json/radix-icons": "^1.1.14",
+    "@iconify-json/simple-icons": "^1.1.109",
     "@iconify/vue": "^4.1.2",
+    "@nuxt/fonts": "^0.7.1",
+    "@nuxt/image": "^1.7.0",
     "@nuxtjs/color-mode": "^3.4.2",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "typescript": "^5.5.3"

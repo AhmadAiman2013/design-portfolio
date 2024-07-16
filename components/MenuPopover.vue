@@ -19,12 +19,12 @@ import { Button } from '@/components/ui/button'
     align="end"
     class="w-60">
         <div class="text-lg gap-6 items-end mt-2">
-            <h1 class="mb-4 hover:bg-primary hover:text-white dark:hover:text-black">
+            <h1 class="mb-4">
                 <NuxtLink to="/projects" class="border-b-4 border-primary" >
                     <span>/</span>projects
                 </NuxtLink>
             </h1>
-            <h1 class="my-4 hover:bg-primary hover:text-white dark:hover:text-black" >
+            <h1 class="my-4 " >
                 <NuxtLink to="/blogs" class="border-b-4 border-primary" >
                     <span>/</span>blogs
                 </NuxtLink>
@@ -37,10 +37,8 @@ import { Button } from '@/components/ui/button'
                     <Icon name="radix-icons:linkedin-logo" size="1.75em" />
                 </NuxtLink>
             </div>
-            
             <div class="mt-4">
                 <ThemeToggle />
-
             </div>
         </div>
     </PopoverContent>

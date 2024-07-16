@@ -35,15 +35,18 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
     <div class="sm:flex justify-between">
       <div class="flex-1 text-xl">
         <h1 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h1>
-        <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true">
-          <h1 class="hidden sm:block text-2xl">Aspired to be a
-            <span class="typing text-primary"></span>
-          </h1>
-          <h1 class="text-2xl">I'm a
+        <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true" class="sm:hidden">
+          <h1 class="text-2xl ">I'm a
             <span class="typing text-primary"></span>
           </h1>
         </VueTypedJs>
-        <p class="mt-2 text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius laboriosam
+        <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true" class="hidden sm:block ">
+          <h1 class="hidden sm:block text-2xl">Aspired to be a
+            <span class="typing text-primary"></span>
+          </h1>
+        </VueTypedJs>
+        
+        <p class="mt-2 text-base text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius laboriosam
           deleniti sed, at in modi atque
           magnam laborum error. Eveniet qui sapiente harum voluptate voluptas in deserunt tenetur eius.</p>
       </div>

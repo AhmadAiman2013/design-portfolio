@@ -31,8 +31,8 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
 </script>
 
 <template>
-  <section class="w-full max-w-[1116px] mx-auto mt-12">
-    <div class="flex justify-between">
+  <section class="sm:mx-auto w-full max-w-[1116px]  mt-12">
+    <div class="sm:flex justify-between">
       <div class="flex-1 text-xl">
         <h1 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h1>
         <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true">
@@ -54,7 +54,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <h1 class="underline decoration-primary decoration-4" >
           #Frontend
         </h1>
-        <div class="grid grid-cols-6 mt-2">
+        <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in frontend" :key="item" class="flex flex-col m-2">
             <Icon :name="`tabler:brand-${item}`" size="3rem" />
             {{ item }}
@@ -65,10 +65,12 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <h1 class="underline decoration-primary decoration-4" >
           #Backend
         </h1>
-        <div class="grid grid-cols-6 mt-2">
+        <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in backend" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
-            {{ item }}
+            <p class="break-words">
+              {{ item }}
+            </p>
           </li>
         </div>
       </div>
@@ -76,7 +78,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <h1 class="underline decoration-primary decoration-4" >
           #Styling
         </h1>
-        <div class="grid grid-cols-6 mt-2">
+        <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in styling" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
             {{ item }}
@@ -87,10 +89,12 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         <h1 class="underline decoration-primary decoration-4" >
           #Others
         </h1>
-        <div class="grid grid-cols-6 mt-2">
+        <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in others" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
-            {{ item }}
+            <p class="text-wrap">
+              {{ item }}
+            </p>
           </li>
           <li class="flex flex-col m-2">
             <Icon name="tabler:brand-azure" size="3rem" />
@@ -102,12 +106,12 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
     </div>
     <div class="mt-10 mb-20">
       <h1 class="text-3xl">Contacts<span class="text-7xl text-primary">.</span></h1>
-      <div class="flex justify-between" >
+      <div class="sm:flex justify-between" >
         <p class="max-w-[500px] my-2">
           Currently looking for fulltime/freelance. However, if you have other request or question, don’t hesitate to
           contact me</p>
         <div>
-          <p class="text-primary" >Message me here</p>
+          <p class="mt-10 sm:mt-0 text-primary" >Message me here</p>
           <div class="flex items-center space-x-2" >
             <Icon name="radix-icons:envelope-closed" size="1rem"/>
             <p>ahmadaimanalias.gmail</p>  

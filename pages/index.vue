@@ -36,7 +36,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
       <div class="flex-1 text-xl">
         <h1 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h1>
         <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true">
-          <h1 class="text-2xl" >Aspired to be a
+          <h1 class="text-xl" >Aspired to be a
             <span class="typing text-primary"></span>
           </h1>
         </VueTypedJs>

@@ -50,7 +50,19 @@ export default defineNuxtConfig({
       {
         code: "en",
         iso: "en-US",
+      },
+      {
+        code: 'gb',
+        iso: 'en-GB'
       }
     ],
+    defaultLocale: 'en'
+  },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en',
+      },
+    }
   }
 });

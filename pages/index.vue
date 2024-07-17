@@ -34,7 +34,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
   <section class="sm:mx-auto w-full max-w-[1116px]  mt-12">
     <div class="sm:flex justify-between">
       <div class="flex-1 text-xl">
-        <h1 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h1>
+        <h2 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h2>
         <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true" class="sm:hidden">
           <p class="text-2xl ">I'm a
             <span class="typing text-primary"></span>

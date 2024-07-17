@@ -3,7 +3,7 @@
         <div class=" flex gap-3 items-end">
             <div class="border-b-4 border-primary sm:hover:bg-primary sm:hover:text-white sm:dark:hover:text-black">
                 <NuxtLink to="/">
-                    <p class="text-xl sm:text-2xl">Ahmad Aiman Alias</p>
+                    <h1 class="text-xl sm:text-2xl">Ahmad Aiman Alias</h1>
                 </NuxtLink>
             </div>
             <div class="hidden sm:block hover:bg-primary hover:text-white dark:hover:text-black">

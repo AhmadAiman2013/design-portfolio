@@ -19,16 +19,16 @@ import { Button } from '@/components/ui/button'
     align="end"
     class="w-60">
         <div class="text-lg gap-6 items-end mt-2">
-            <h1 class="mb-4">
+            <p class="mb-4">
                 <NuxtLink to="/projects" class="border-b-4 border-primary" >
                     <span>/</span>projects
                 </NuxtLink>
-            </h1>
-            <h1 class="my-4 " >
+            </p>
+            <p class="my-4 " >
                 <NuxtLink to="/blogs" class="border-b-4 border-primary" >
                     <span>/</span>blogs
                 </NuxtLink>
-            </h1>
+            </p>
             <div class="mt-10 space-x-4">
                 <NuxtLink>
                     <Icon name="radix-icons:github-logo" size="1.75em" />

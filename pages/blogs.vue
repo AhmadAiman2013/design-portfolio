@@ -1,5 +1,5 @@
 <template>
     <section class="w-full max-w-[1116px] sm:mx-auto mt-12">
-        <h1>this is blogs</h1>
+        <p>this is blogs</p>
     </section>
 </template>

@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/fonts",
     "@nuxt/image",
+    "@nuxtjs/i18n"
   ],
   shadcn: {
     /**
@@ -44,4 +45,12 @@ export default defineNuxtConfig({
       },
     ],
   },
+  i18n: {
+    locales: [
+      {
+        code: "en",
+        iso: "en-US",
+      }
+    ],
+  }
 });

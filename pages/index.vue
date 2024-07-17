@@ -36,14 +36,14 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
       <div class="flex-1 text-xl">
         <h1 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h1>
         <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true" class="sm:hidden">
-          <h1 class="text-2xl ">I'm a
+          <p class="text-2xl ">I'm a
             <span class="typing text-primary"></span>
-          </h1>
+          </p>
         </VueTypedJs>
         <VueTypedJs :strings=positions :typeSpeed="100" :backSpeed="100" :loop="true" class="hidden sm:block ">
-          <h1 class="hidden sm:block text-2xl">Aspired to be a
+          <p class="hidden sm:block text-2xl">Aspired to be a
             <span class="typing text-primary"></span>
-          </h1>
+          </p>
         </VueTypedJs>
         
         <p class="mt-2 text-base text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius laboriosam
@@ -55,11 +55,11 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
       </div>
     </div>
     <div class="max-w-[1000px] mt-10 text-base">
-      <h1 class="text-3xl">Skills<span class="text-6xl text-primary">.</span></h1>
+      <h2 class="text-3xl">Skills<span class="text-6xl text-primary">.</span></h2>
       <div class="my-2">
-        <h1 class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4" >
           #Frontend
-        </h1>
+        </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in frontend" :key="item" class="flex flex-col m-2">
             <Icon :name="`tabler:brand-${item}`" size="3rem" />
@@ -70,9 +70,9 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         </div>
       </div>
       <div class="my-3">
-        <h1 class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4" >
           #Backend
-        </h1>
+        </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in backend" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
@@ -83,9 +83,9 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         </div>
       </div>
       <div class="my-3">
-        <h1 class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4" >
           #Styling
-        </h1>
+        </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in styling" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
@@ -96,9 +96,9 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         </div>
       </div>
       <div class="my-3">
-        <h1 class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4" >
           #Others
-        </h1>
+        </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
           <li v-for="item in others" :key="item" class="flex flex-col m-2">
             <Icon :name="`simple-icons:${item}`" size="3rem" />
@@ -117,7 +117,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
       </div>
     </div>
     <div class="mt-10 mb-20">
-      <h1 class="text-3xl">Contacts<span class="text-7xl text-primary">.</span></h1>
+      <h2 class="text-3xl">Contacts<span class="text-7xl text-primary">.</span></h2>
       <div class="sm:flex justify-between" >
         <p class="max-w-[500px] my-2 text-slate-500">
           Currently looking for fulltime/freelance. However, if you have other request or question, don’t hesitate to

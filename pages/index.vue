@@ -31,7 +31,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
 </script>
 
 <template>
-  <section class="sm:mx-auto w-full max-w-[1116px]  mt-12">
+  <section class="sm:mx-auto w-full max-w-[1116px] mt-12">
     <div class="sm:flex justify-between">
       <div class="flex-1 text-xl">
         <h2 class="text-4xl mb-5">Pleased to meet you<span class="text-7xl text-primary">.</span></h2>
@@ -51,7 +51,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
           magnam laborum error. Eveniet qui sapiente harum voluptate voluptas in deserunt tenetur eius.</p>
       </div>
       <div class="flex-1 m-2 p-2 flex justify-center items-center rounded-lg">
-        <NuxtImg src="/self_picture.png" alt="Ahmad Aiman Alias" width="300" height="300" class="rounded-md" />
+        <NuxtImg src="/self_picture.png" alt="Ahmad Aiman Alias" width="300" height="300" class="rounded-md" placeholder/>
       </div>
     </div>
     <div class="max-w-[1000px] mt-10 text-base">

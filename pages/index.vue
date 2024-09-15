@@ -46,14 +46,21 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
           </p>
         </VueTypedJs>
         
-        <p class="mt-2 text-base text-slate-500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque eius laboriosam
-          deleniti sed, at in modi atque
-          magnam laborum error. Eveniet qui sapiente harum voluptate voluptas in deserunt tenetur eius.</p>
+        <p class="mt-2 text-base text-slate-500">Passionate about programming and web applications from front to back. Whether it's developing smooth user interfaces or building robust server-side logic, I enjoy every step of the process. Currently, I'm honing my skills in  javascript/typescript, php and c# ecosystem with deep interest in cloud and self hosted solutions.</p>
       </div>
       <div class="flex-1 m-2 p-2 flex justify-center items-center rounded-lg">
         <NuxtImg src="/self_picture.png" alt="Ahmad Aiman Alias" width="300" height="300" class="rounded-md" placeholder/>
       </div>
     </div>
+    
+    <!-- section for project -->
+    <div class="mt-10 mb-20">
+      <h2 class="text-3xl">Projects<span class="text-7xl text-primary">.</span></h2>
+      
+
+    </div>
+
+
     <div class="max-w-[1000px] mt-10 text-base">
       <h2 class="text-3xl">Skills<span class="text-6xl text-primary">.</span></h2>
       <div class="my-2">
@@ -126,11 +133,15 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
           <p class="mt-10 sm:mt-0 text-primary" >Message me here</p>
           <div class="flex items-center space-x-2" >
             <Icon name="radix-icons:envelope-closed" size="1rem"/>
-            <p>ahmadaimanalias.gmail</p>  
+            <NuxtLink to="mailto:ahmadaimanalias.gmail">
+              <p>ahmadaimanalias.gmail</p>  
+            </NuxtLink>
           </div>
           <div class="flex items-center space-x-2" >
             <Icon name="radix-icons:linkedin-logo" size="1rem"/>
-            <p>ahmadaiman</p>  
+            <NuxtLink to="https://www.linkedin.com/in/ahmad-aiman-b1a969275" target="_blank">
+              <p>ahmadaimnalias</p>  
+            </NuxtLink>
           </div>
         </div>
       </div>

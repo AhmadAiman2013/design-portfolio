@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { VueTypedJs } from 'vue3-typed-ts';
 
+
 const positions = ['Frontend', 'Backend', 'Fullstack', 'DevOps'];
 
 // frontend
@@ -45,26 +46,28 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
             <span class="typing text-primary"></span>
           </p>
         </VueTypedJs>
-        
-        <p class="mt-2 text-base text-slate-500">Passionate about programming and web applications from front to back. Whether it's developing smooth user interfaces or building robust server-side logic, I enjoy every step of the process. Currently, I'm honing my skills in  javascript/typescript, php and c# ecosystem with deep interest in cloud and self hosted solutions.</p>
+
+        <p class="mt-2 text-base text-slate-500">Passionate about programming and web applications from front to back.
+          Whether it's developing smooth user interfaces or building robust server-side logic, I enjoy every step of the
+          process. Currently, I'm honing my skills in javascript/typescript, php and c# ecosystem with deep interest in
+          cloud and self hosted solutions.</p>
       </div>
       <div class="flex-1 m-2 p-2 flex justify-center items-center rounded-lg">
-        <NuxtImg src="/self_picture.png" alt="Ahmad Aiman Alias" width="300" height="300" class="rounded-md" placeholder/>
+        <NuxtImg src="/self_picture.png" alt="Ahmad Aiman Alias" width="300" height="300" class="rounded-md"
+          placeholder />
       </div>
     </div>
-    
+
     <!-- section for project -->
     <div class="mt-10 mb-20">
-      <h2 class="text-3xl">Projects<span class="text-7xl text-primary">.</span></h2>
-      
-
+      <h2 class="text-3xl">Recent Projects<span class="text-7xl text-primary">.</span></h2>
+      <JobCards />
     </div>
-
 
     <div class="max-w-[1000px] mt-10 text-base">
       <h2 class="text-3xl">Skills<span class="text-6xl text-primary">.</span></h2>
       <div class="my-2">
-        <p class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4">
           #Frontend
         </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
@@ -77,7 +80,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         </div>
       </div>
       <div class="my-3">
-        <p class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4">
           #Backend
         </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
@@ -90,7 +93,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         </div>
       </div>
       <div class="my-3">
-        <p class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4">
           #Styling
         </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
@@ -103,7 +106,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
         </div>
       </div>
       <div class="my-3">
-        <p class="underline decoration-primary decoration-4" >
+        <p class="underline decoration-primary decoration-4">
           #Others
         </p>
         <div class="grid grid-cols-3 sm:grid-cols-6 mt-2">
@@ -125,22 +128,22 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
     </div>
     <div class="mt-10 mb-20">
       <h2 class="text-3xl">Contacts<span class="text-7xl text-primary">.</span></h2>
-      <div class="sm:flex justify-between" >
+      <div class="sm:flex justify-between">
         <p class="max-w-[500px] my-2 text-slate-500">
           Currently looking for fulltime/freelance. However, if you have other request or question, don’t hesitate to
           contact me</p>
         <div>
-          <p class="mt-10 sm:mt-0 text-primary" >Message me here</p>
-          <div class="flex items-center space-x-2" >
-            <Icon name="radix-icons:envelope-closed" size="1rem"/>
+          <p class="mt-10 sm:mt-0 text-primary">Message me here</p>
+          <div class="flex items-center space-x-2">
+            <Icon name="radix-icons:envelope-closed" size="1rem" />
             <NuxtLink to="mailto:ahmadaimanalias.gmail">
-              <p>ahmadaimanalias.gmail</p>  
+              <p>ahmadaimanalias.gmail</p>
             </NuxtLink>
           </div>
-          <div class="flex items-center space-x-2" >
-            <Icon name="radix-icons:linkedin-logo" size="1rem"/>
+          <div class="flex items-center space-x-2">
+            <Icon name="radix-icons:linkedin-logo" size="1rem" />
             <NuxtLink to="https://www.linkedin.com/in/ahmad-aiman-b1a969275" target="_blank">
-              <p>ahmadaimnalias</p>  
+              <p>ahmadaimnalias</p>
             </NuxtLink>
           </div>
         </div>

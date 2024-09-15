@@ -142,7 +142,7 @@ const others = ['cloudflare', 'prisma', 'drizzle', 'git', 'figma', 'langchain', 
           </div>
           <div class="flex items-center space-x-2">
             <Icon name="radix-icons:linkedin-logo" size="1rem" />
-            <NuxtLink to="https://www.linkedin.com/in/ahmad-aiman-b1a969275" target="_blank">
+            <NuxtLink to="https://www.linkedin.com/in/ahmdaimnalias/" target="_blank">
               <p>ahmadaimnalias</p>
             </NuxtLink>
           </div>

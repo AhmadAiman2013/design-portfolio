@@ -12,7 +12,7 @@
                 </NuxtLink>
             </div>
             <div class="hidden sm:block hover:bg-primary hover:text-white dark:hover:text-black">
-                <NuxtLink to="https://www.linkedin.com/in/ahmad-aiman-b1a969275" target="_blank">
+                <NuxtLink to="https://www.linkedin.com/in/ahmdaimnalias/" target="_blank">
                     <Icon name="radix-icons:linkedin-logo" size="1.75em" />
                 </NuxtLink>
             </div>

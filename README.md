@@ -1,23 +1,16 @@
-# Nuxt 3 Minimal Starter
+A simple yet beautiful portfolio template built with NuxtJS and ShadcnUI.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+To get more information about Nuxt, you can refer [here](https://nuxt.com/docs/getting-started/introduction).
+Deploy at [Vercel](https://vercel.com/)
 
 ## Setup
 
-Make sure to install the dependencies:
+Make sure to git clone and install the dependencie
 
 ```bash
 # npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -28,14 +21,6 @@ Start the development server on `http://localhost:3000`:
 # npm
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -46,30 +31,6 @@ Build the application for production:
 # npm
 npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
